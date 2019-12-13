@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Creative - Start Bootstrap Theme</title>
+  <title>Wellcome AdMiapp </title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ asset('web/vendor/fontawesome-free/css/all.css') }}">
@@ -58,12 +58,12 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Administrador web de inventarios.</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <p class="text-white-75 font-weight-light mb-5">AdmiApp esta diseñado para que tengas una grata experiencia con el manejo de tú empresa mediante diferentes aplicativos dentro de esta plataforma.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Muestrame más</a>
         </div>
       </div>
     </div>
@@ -74,10 +74,10 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
+          <h2 class="text-white mt-0">Tenemos lo que necesitas!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <p class="text-white-50 mb-4">Encuentra desntro de la plataforma un administrador de inventarios, un control de asistencia, control de procesos, control de activiades y muchas otras funciones que permiten que tengas el control ansoluto de tú empresa. </p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Empecemos!</a>
         </div>
       </div>
     </div>
@@ -86,34 +86,34 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">Para ti</h2>
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <i class="fas fa-4x fa-pencil-ruler text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Editor Web</h3>
+            <p class="text-muted mb-0">COntrola tu sitio web, modificando el contenido desde la plataforma!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <i class="fas fa-4x fa-address-card text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Asistencia</h3>
+            <p class="text-muted mb-0">Con el control de asistencia tendras control del ingreso y salida de tú equipo de trabajo!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <i class="fas fa-4x fa-truck-loading text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Sistema de Inventario</h3>
+            <p class="text-muted mb-0">Obten control de tú inventario en tiempo real, control de compras y ventas!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
+            <h3 class="h4 mb-2"></h3>
             <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
           </div>
         </div>
@@ -247,15 +247,15 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="{{ asset('web/vendor/jquery/jquery.min.js')}}"></script>
-  <script src="{{ asset('web/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ asset('web/vendor/jquery/jquery.js')}}"></script>
+  <script src="{{ asset('web/vendor/bootstrap/js/bootstrap.bundle.js')}}"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="{{ asset('web/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-  <script src="{{ asset('web/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
+  <script src="{{ asset('web/vendor/jquery-easing/jquery.easing.js')}}"></script>
+  <script src="{{ asset('web/vendor/magnific-popup/jquery.magnific-popup.js')}}"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="{{ asset('web/js/creative.min.js')}}"></script>
+  <script src="{{ asset('web/js/creative.js')}}"></script>
 
 </body>
 
